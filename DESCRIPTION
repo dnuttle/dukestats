@@ -1,0 +1,7 @@
+Package: dukestats
+Title: Utility Methods for Duke Stats Course
+Description: A collection of methods for use in the Duke University Coursera course, "Data Analysis and Statistical Inference"
+Version: 0.1
+Author: Dan Nuttle <dan.nuttle@gmail.com>
+Maintainer: Dan Nuttle <dan.nuttle@gmail.com>
+License: MIT

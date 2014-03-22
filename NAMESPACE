@@ -1,0 +1,6 @@
+export(bayes)
+export(ci.mean)
+export(prob.negbinom)
+export(pvalue.mean)
+export(samplesize)
+export(test.mean)
