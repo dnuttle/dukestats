@@ -38,7 +38,9 @@ test.mean <- function(pe, nullval, sd, n, conflvl, twosided=F) {
   return(result)
 }
 
-#' \code{prob.negbinom} returns the probability for a negative binomial distribution. It returns the probability of k successes in n trials, given p probability on any trial.
+#' \code{prob.negbinom} returns the probability for a negative binomial distribution. 
+#' It returns the probability of of the first success being the kth trial
+#' in n trials, given p probability on any trial.
 #' @param n is the number of trials
 #' @param k is the number of successes
 #' @param p is the probability of a success on any trial
