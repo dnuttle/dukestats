@@ -31,6 +31,6 @@ probabilities, as well as two values, which determine the
 first and second paths to take in the tree.
 }
 \examples{
-bayes(data = list(path1=list(sick=0.05, positive=0.95), path2=(healthy=0.95, positive=0.35)), a=1, b=1) # probability of a positive disease result, given that you are sick
+bayes(data = list(path1=list(sick=0.05, positive=0.95), path2=list(healthy=0.95, positive=0.35)), a=1, b=1) # probability of disease, given a positive result (returns 0.125)
 }
 

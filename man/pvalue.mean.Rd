@@ -24,6 +24,6 @@ p-value
 that is a sample mean.
 }
 \examples{
-pvalue.mean(pe=2, nullval=0, sd=0.5, n=51, twosided=T)
+pvalue.mean(pe=1.1, nullval=0, sd=4.9, n=51, twosided=F) # Returns 0.0544477
 }
 
